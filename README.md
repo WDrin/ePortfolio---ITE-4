@@ -168,6 +168,8 @@
         <section id="about" class="section" style="display: flex; align-items: center;">
             <img src="picture/photo_2024-01-28_12-26-54.jpg" alt="Profile Picture"
                 style="width: 500px; height: 500px; border-radius: 5%; margin-right: 20px;">
+                <a href="https://docs.google.com/document/d/1-IYyJdOm2fzeebWSQbmsP8jPSp1sG3FX/edit?usp=sharing&ouid=102273935666327125777&rtpof=true&sd=true" style="width: 500px; height: 500px; border-radius: 5%; margin-right: 20px;">
+                </a>
             <div>
                 <h2>About Me<br></h2>
                 <p>Hello, I'm Walt Aldrin B. Rayos del Sol, I'm 21 years old, and I live in Cainta Rizal, I'm withmy
