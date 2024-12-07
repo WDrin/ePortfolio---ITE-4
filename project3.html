@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Activities</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .activity-card {
+            background-color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .review-card {
+            background-color: #333;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .reflection-panel {
+            background-color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position: fixed; top: 10px; right: 10px;">
+        <button onclick="goBack()"
+            style="padding: 10px 20px; background-color: #444; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">
+            Back
+        </button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header
+            style="position: fixed; top: 0; left: 0; right: 0; background-color: #000000; padding: 15px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 1000;">
+            <h1 style="color: #ffffff;">Final Activities</h1>
+            <button onclick="goBack()"
+                style="padding: 10px 20px; background-color: #444; color: #808080; border: none; border-radius: 5px; cursor: pointer;">
+                Back
+            </button>
+        </header>
+
+        <!-- Main content container with margin to account for fixed header -->
+        <div class="container" style="margin-top: 80px;">
+            <section class="term-activities">
+                <div class="term-description">
+                    <p style="color: #ffffff;">The final term was a enjoyable learning experience that focused on
+                        applying advanced AI models to practical tasks, particularly in designing and evaluating
+                        chatbots. This experience allowed me to explore the capabilities of advanced language models
+                        and develop important technical skills.<br><br>
+
+                        My practical understanding of AI and its uses developed during the final term. It was an
+                        exciting challenge to work with advanced tools and models, and I feel better prepared to
+                        apply complex AI tasks in the future. My goal moving forward is to continue refining my skills
+                        in AI development and explore how these technologies can be used to solve real-world problems
+                        effectively.
+                    </p>
+
+                </div>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <h3 style="color: #ffffff;">Exercise F1 - Building Chatbots</h3>
+                        <div class="exam-score">
+                            <p style="font-size: 1.2em; margin-top: 15px; color: #ffffff;">Grade: <span
+                                    style="color: #e93737; font-weight: bold;">Coming soon</span></p>
+                        </div>
+                        <p style="color: #ffffff;">This task involves designing and evaluating chatbots using advanced
+                            language models within LangChain. It emphasizes the use of five distinct AI models:
+                            Mistralai/Mixtral-8x7B-Instruct-v0.1, Google’s Gemma-7B, Meta-Llama-3-8B-Instruct,
+                            Mistralai/Mistral-7B-Instruct-v0.2, and Microsoft’s Phi-3.5-mini-instruct. Each model was
+                            tested with a variety of questions to measure performance in terms of clarity, accuracy, and
+                            response reliability, particularly with complex queries. The process relied on technologies
+                            like Natural Language Processing (NLP) and machine learning to create a chatbot capable of
+                            understanding and generating logically, context-aware replies. Key evaluation metrics
+                            included quality ratings and accuracy scores, which provided insights into the strengths and
+                            weaknesses of each model. Mistral-7B-Instruct-v0.2 emerged as the most effective
+                            model for delivering quick and accurate responses suitable for real-world applications.</p>
+
+                        <div class="file-link">
+                            <a href="https://drive.google.com/drive/folders/1kq4jmIFmLSuARmMc2_EbkoaJjqEBs6UI?usp=sharing"
+                                target="_blank" style="display: inline-block; padding: 5px 10px; margin-top: 10px; 
+                                      background-color: #444; color: #ffffff; border: none; 
+                                      border-radius: 3px; cursor: pointer; text-decoration: none;">
+                                View Project Files
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Personal Reflection Panel -->
+            <section class="reflection-panel">
+                <h2 style="color: #ffffff;">Personal Reflection</h2>
+                <div class="reflection-content">
+                    <p style="color: #ffffff;">This activity deepened my understanding of AI's potential and its
+                        practical challenges in creating chatbots. Exploring the difficulties of multiple models
+                        highlighted how each one has unique strengths and limitations. For example,
+                        Mistral-7B-Instruct-v0.2 demonstrated an impressive balance of speed and clarity, making it
+                        ideal for dynamic applications. However, observing the struggles of smaller models like
+                        Microsoft’s Phi-3.5-mini-instruct in handling complex questions also highlighted the changes
+                        between computational efficiency and performance of the models.
+                        <br><br>
+                        This activity also enhanced my skills in using LangChain and Python, as I learned how to
+                        implement and evaluate chatbots using various AI models. The hands-on experience provided a
+                        deeper understanding of the capabilities and limitations of different language models, which
+                        will be valuable in future projects.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Peer Reviews Section -->
+            <section class="peer-reviews">
+                <h2 style="color: #ffffff;">Peer Reviews</h2>
+                <div class="review-panels">
+                    <!-- Review Panel 1 -->
+                    <div class="review-card">
+                        <h3 style="color: #ffffff;">Peer Review 1</h3>
+                        <div class="reviewer-info">
+                            <p class="review-date" style="color: #ffffff;">Date: Nov 14 at 11:39am</p>
+                        </div>
+                        <div class="review-content">
+                            <p style="color: #ffffff;">In Walt Aldrin B. Rayos del Sol’s paper, he analyzed different
+                                language models
+                                to see how well they worked for building chatbots using LangChain. He tested five
+                                models,
+                                including Mistral and Google Gemma, to find out which performed best on various types of
+                                questions. He created an Excel file to record the responses and quality scores for each
+                                model, which helped organize his findings. <br><br>
+
+                                In his methodology section, he described how he proceeded in setting up his models and
+                                had expanded on the background of each model and what type of questions were
+                                requested. He compared the output of the models in the results to show which performed
+                                better and had more accuracy and efficiency. The results indicated that
+                                Mistral-7B-Instruct-v0.2 had the best quality for real-time applications, but
+                                Microsoft's Phi-3.5-mini-instruct had a struggle with complex questions. It would also
+                                enhance the aspect of applying this study in real life by extending the research study
+                                into a more expanded way of explaining how results may be applied in a real situation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review Panel 2 -->
+                    <div class="review-card">
+                        <h3 style="color: #ffffff;">Peer Review 2</h3>
+                        <div class="reviewer-info">
+                            <p class="review-date" style="color: #ffffff;">Date: Nov 20 at 3:54am</p>
+                        </div>
+                        <div class="review-content">
+                            <p style="color: #ffffff;">The documentation is not in proper IEEE format. missing values
+                                in the excel. The study contrasts five language
+                                models—Mistralai/Mixtral-8x7B-Instruct-v0.1,
+                                Microsoft's Phi-3.5-mini-instruct, Google's Gemma-7B, Meta-Llama-3-8B-Instruct, and
+                                Mistralai/Mistral-7B-Instruct-v0.2—that are used to create chatbots using LangChain.
+                                Accuracy,
+                                response clarity, and managing complex requests were the main evaluation criteria.
+                                With a 76% quality rating and 0.9333 accuracy, Mistral-7B-Instruct-v0.2 was found to be
+                                the
+                                best balanced and perfect for practical uses. Microsoft's Phi-3.5-mini-instruct, on the
+                                other
+                                hand, had trouble with complexity and only received a 62% quality rating. In order to
+                                optimize
+                                chatbot performance, the research highlights the importance of using language models
+                                that are
+                                specific to the needs of the application.</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Panel 3 -->
+                    <div class="review-card">
+                        <h3 style="color: #ffffff;">Peer Review 3</h3>
+                        <div class="reviewer-info">
+                            <p class="review-date" style="color: #ffffff;">Date: Dec 6 at 7:46pm</p>
+                        </div>
+                        <div class="review-content">
+                            <p style="color: #ffffff;">I find that his paper is not fully in IEEE format.
+                                For instance, the size and font of the text are not proper. Also, he only put
+                                three keywords when normally the IEEE requires five to six keywords that could
+                                give an idea of what main topics of the paper were about. About the methodology section,
+                                I think the way the author explained how the chatbots were implemented is not very
+                                clear. He talks about the tools and models used but does not go into much detail
+                                regarding how the chatbots were built and tested. More details on how the steps were
+                                taken to set up the chatbots and how their performance was measured would be helpful
+                                in making readers understand better.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Final Exam Section -->
+            <section class="activity-card">
+                <h2 style="color: #ffffff;">Final Exam Performance - <span
+                        style="color: #e93737; font-weight: bold;">Coming soon</span></h2>
+
+                <!--<div class="exam-details">
+                    <h3 style="color: #ffffff;">Web Development Comprehensive Assessment</h3>
+                    <p style="color: #ffffff;">Successfully completed the final examination with demonstrated
+                        proficiency in core web
+                        development concepts.</p>
+
+                    <div class="exam-score">
+                        <p style="font-size: 1.2em; margin-top: 15px; color: #ffffff;">Final Grade: <span
+                                style="color: #4CAF50; font-weight: bold;">95%</span></p>
+                    </div>
+                    <div class="image-container" style="display: flex; justify-content: space-between; margin: 20px 0;">
+                        <img src="path/to/image1.jpg" alt="Portfolio Screenshot 1"
+                            style="width: 48%; border-radius: 5px;">
+                        <img src="path/to/image2.jpg" alt="Portfolio Screenshot 2"
+                            style="width: 48%; border-radius: 5px;">
+                    </div>
+                </div>-->
+            </section>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="styles/project1.css">
+    <script src="scripts/project1.js" defer></script>
+</body>
+
+</html>
