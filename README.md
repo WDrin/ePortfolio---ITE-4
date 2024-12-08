@@ -189,7 +189,7 @@
                     <!--<p>Description of project 1</p>-->
                     <!--<a href="project1.html" class="view-project-button">View Project</a>-->
                     <!--<link href="project1.html" type="text\html" rel="stylesheet">-->
-                    <!--<a href="[https://WDrin.github.io](https://github.com/WDrin/ePortfolio---ITE-4.git)/ePortfolio---ITE-4/project1.html" title="Prelim">View Project</a>-->
+                    <!--<a href="https://github.com/WDrin/ePortfolio---ITE-4.git/ePortfolio---ITE-4/project1.html" title="Prelim">View Project</a>-->
                     <!--<a href="project1.html" class="view-project-button">View Project</a>-->
                     <!--https://github.com/WDrin/ePortfolio---ITE-4.git-->
                 </div>
