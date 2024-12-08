@@ -187,7 +187,7 @@
                     <h3 style="font-size: 30px;">Prelim Term</h3>
                     <!--<p>Description of project 1</p>-->
                     <!--<a href="project1.html" class="view-project-button">View Project</a>-->
-                    <link href=".\project1.html" type="text/css" rel="stylesheet">
+                    <link href=".\project1.html" type="text\html" rel="stylesheet">
                 </div>
                 <div class="project-card">
                     <h3 style="font-size: 30px;">Midterm</h3>
