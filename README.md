@@ -189,7 +189,7 @@
                     <!--<p>Description of project 1</p>-->
                     <!--<a href="project1.html" class="view-project-button">View Project</a>-->
                     <!--<link href="project1.html" type="text\html" rel="stylesheet">-->
-                    <a href="https://<WDrin>.github.io/<ePortfolio---ITE-4>/project1.html" title="Prelim">View Project</a>
+                    <a href="https://WDrin.github.io/ePortfolio---ITE-4/project1.html" title="Prelim">View Project</a>
 
                 </div>
                 <div class="project-card">
