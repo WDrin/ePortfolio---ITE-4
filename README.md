@@ -167,7 +167,7 @@
 
     <div class="container">
         <section id="about" class="section" style="display: flex; align-items: center;">
-            <img src=".\picture\img20241207_13443442.png" alt="Profile Picture"
+            <img src=".\picture\photo_2024-01-28_12-26-54.jpg" alt="Profile Picture"
                 style="width: 500px; height: 500px; border-radius: 5%; margin-right: 20px;">
                 
             <div>
