@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My ePortfolio</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -186,8 +187,8 @@
                 <div class="project-card">
                     <h3 style="font-size: 30px;">Prelim Term</h3>
                     <!--<p>Description of project 1</p>-->
-                    <!--<a href="project1.html" class="view-project-button">View Project</a>-->
-                    <link href="project1.html" type="text\html" rel="stylesheet">View Project</link>
+                    <a href="project1.html" class="view-project-button">View Project</a>
+                    <!--<link href="project1.html" type="text\html" rel="stylesheet">-->
                 </div>
                 <div class="project-card">
                     <h3 style="font-size: 30px;">Midterm</h3>
