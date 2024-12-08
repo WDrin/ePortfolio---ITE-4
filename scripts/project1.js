@@ -60,9 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const reviewCards = document.querySelectorAll('.review-card');
 
         reviewCards.forEach(card => {
-            const editButton = document.createElement('button');
-            editButton.textContent = 'Edit Review';
-            editButton.className = 'edit-review-btn';
+            
 
             const reviewContent = card.querySelector('.review-content');
 
